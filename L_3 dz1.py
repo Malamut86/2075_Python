@@ -18,3 +18,4 @@ for ch in phone_words:
 phone_words = numbered_words
 print(output)
 
+# Добавить перевод не забыть
