@@ -1,0 +1,225 @@
+Ололя@DESKTOP-VHM375L MINGW64 ~
+$ cd PycharmProjects/
+
+Ололя@DESKTOP-VHM375L MINGW64 ~/PycharmProjects
+$ ls
+pythonProject/  pythonProject1/  pythonProject2/
+
+Ололя@DESKTOP-VHM375L MINGW64 ~/PycharmProjects
+$ cd pythonProject
+
+Ололя@DESKTOP-VHM375L MINGW64 ~/PycharmProjects/pythonProject
+$ ls
+2075_Python/  L1/  Lesson_2/  main.py  venv/
+
+Ололя@DESKTOP-VHM375L MINGW64 ~/PycharmProjects/pythonProject
+$ cd 2075_Python/
+
+Ололя@DESKTOP-VHM375L MINGW64 ~/PycharmProjects/pythonProject/2075_Python (main)
+$ ls
+LICENSE  Les_4/  Les_7/  Malamut_Olga_dz_1_.py  Malamut_Olga_dz_3.py
+Les_3/   Les_5/  Les_8/  Malamut_Olga_dz_2.py   README.md
+
+Ололя@DESKTOP-VHM375L MINGW64 ~/PycharmProjects/pythonProject/2075_Python (main)
+$ cd Les_4
+
+Ололя@DESKTOP-VHM375L MINGW64 ~/PycharmProjects/pythonProject/2075_Python/Les_4 (main)
+$ pip show pillow
+WARNING: Package(s) not found: pillow
+
+Ололя@DESKTOP-VHM375L MINGW64 ~/PycharmProjects/pythonProject/2075_Python/Les_4 (main)
+$ pip install pillow
+Collecting pillow
+  Downloading Pillow-9.0.1-cp310-cp310-win_amd64.whl (3.2 MB)
+Installing collected packages: pillow
+Successfully installed pillow-9.0.1
+WARNING: You are using pip version 21.2.4; however, version 22.0.3 is available.
+You should consider upgrading via the 'C:\▒▒▒▒▒ ▒▒▒▒▒\python.exe -m pip install --upgrade pip' command.
+
+Ололя@DESKTOP-VHM375L MINGW64 ~/PycharmProjects/pythonProject/2075_Python/Les_4 (main)
+$ pip freeze
+Pillow==9.0.1
+
+Ололя@DESKTOP-VHM375L MINGW64 ~/PycharmProjects/pythonProject/2075_Python/Les_4 (main)
+$ pip install pillow==8.3.2
+Collecting pillow==8.3.2
+  Downloading Pillow-8.3.2-cp310-cp310-win_amd64.whl (3.2 MB)
+Installing collected packages: pillow
+  Attempting uninstall: pillow
+    Found existing installation: Pillow 9.0.1
+    Uninstalling Pillow-9.0.1:
+      Successfully uninstalled Pillow-9.0.1
+Successfully installed pillow-8.3.2
+WARNING: You are using pip version 21.2.4; however, version 22.0.3 is available.
+You should consider upgrading via the 'C:\▒▒▒▒▒ ▒▒▒▒▒\python.exe -m pip install --upgrade pip' command.
+
+Ололя@DESKTOP-VHM375L MINGW64 ~/PycharmProjects/pythonProject/2075_Python/Les_4 (main)
+$ pip show pillow
+Name: Pillow
+Version: 8.3.2
+Summary: Python Imaging Library (Fork)
+Home-page: https://python-pillow.org
+Author: Alex Clark (PIL Fork Author)
+Author-email: aclark@python-pillow.org
+License: HPND
+Location: c:\▒▒▒▒▒ ▒▒▒▒▒\lib\site-packages
+Requires:
+Required-by:
+
+
+Ололя@DESKTOP-VHM375L MINGW64 ~/PycharmProjects/pythonProject/2075_Python/Les_4 (main)
+$ pip freeze
+Pillow==8.3.2
+
+Ололя@DESKTOP-VHM375L MINGW64 ~/PycharmProjects/pythonProject/2075_Python/Les_4 (main)
+$ pip show pillow
+Name: Pillow
+Version: 8.3.2
+Summary: Python Imaging Library (Fork)
+Home-page: https://python-pillow.org
+Author: Alex Clark (PIL Fork Author)
+Author-email: aclark@python-pillow.org
+License: HPND
+Location: c:\▒▒▒▒▒ ▒▒▒▒▒\lib\site-packages
+Requires:
+Required-by:
+
+Ололя@DESKTOP-VHM375L MINGW64 ~/PycharmProjects/pythonProject/2075_Python/Les_4 (main)
+$ pip install pillow
+Requirement already satisfied: pillow in c:\▒▒▒▒▒ ▒▒▒▒▒\lib\site-packages (8.3.2)
+WARNING: You are using pip version 21.2.4; however, version 22.0.3 is available.
+You should consider upgrading via the 'C:\▒▒▒▒▒ ▒▒▒▒▒\python.exe -m pip install --upgrade pip' command.
+
+Ололя@DESKTOP-VHM375L MINGW64 ~/PycharmProjects/pythonProject/2075_Python/Les_4 (main)
+$ pip install pillow==9.0.1
+Collecting pillow==9.0.1
+  Using cached Pillow-9.0.1-cp310-cp310-win_amd64.whl (3.2 MB)
+Installing collected packages: pillow
+  Attempting uninstall: pillow
+    Found existing installation: Pillow 8.3.2
+    Uninstalling Pillow-8.3.2:
+      Successfully uninstalled Pillow-8.3.2
+Successfully installed pillow-9.0.1
+WARNING: You are using pip version 21.2.4; however, version 22.0.3 is available.
+You should consider upgrading via the 'C:\▒▒▒▒▒ ▒▒▒▒▒\python.exe -m pip install --upgrade pip' command.
+
+Ололя@DESKTOP-VHM375L MINGW64 ~/PycharmProjects/pythonProject/2075_Python/Les_4 (main)
+$ pip show pillow
+Name: Pillow
+Version: 9.0.1
+Summary: Python Imaging Library (Fork)
+Home-page: https://python-pillow.org
+Author: Alex Clark (PIL Fork Author)
+Author-email: aclark@python-pillow.org
+License: HPND
+Location: c:\▒▒▒▒▒ ▒▒▒▒▒\lib\site-packages
+Requires:
+Required-by:
+
+Ололя@DESKTOP-VHM375L MINGW64 ~/PycharmProjects/pythonProject/2075_Python (main)
+$ pip install requests
+Collecting requests
+  Downloading requests-2.27.1-py2.py3-none-any.whl (63 kB)
+     -------------------------------------- 63.1/63.1 KB 423.1 kB/s eta 0:00:00
+Collecting certifi>=2017.4.17
+  Downloading certifi-2021.10.8-py2.py3-none-any.whl (149 kB)
+     ------------------------------------ 149.2/149.2 KB 593.8 kB/s eta 0:00:00
+Collecting charset-normalizer~=2.0.0
+  Downloading charset_normalizer-2.0.12-py3-none-any.whl (39 kB)
+Collecting urllib3<1.27,>=1.21.1
+  Downloading urllib3-1.26.8-py2.py3-none-any.whl (138 kB)
+     ------------------------------------ 138.7/138.7 KB 482.9 kB/s eta 0:00:00
+Collecting idna<4,>=2.5
+  Downloading idna-3.3-py3-none-any.whl (61 kB)
+     -------------------------------------- 61.2/61.2 KB 541.7 kB/s eta 0:00:00
+Installing collected packages: certifi, urllib3, idna, charset-normalizer, requests
+Successfully installed certifi-2021.10.8 charset-normalizer-2.0.12 idna-3.3 requests-2.27.1 urllib3-1.26.8
+
+Ололя@DESKTOP-VHM375L MINGW64 ~/PycharmProjects/pythonProject/2075_Python (main)
+$ pip freeze
+certifi==2021.10.8
+charset-normalizer==2.0.12
+idna==3.3
+Pillow==9.0.1
+requests==2.27.1
+urllib3==1.26.8
+
+Ололя@DESKTOP-VHM375L MINGW64 ~/PycharmProjects/pythonProject/2075_Python/Les_4 (main)
+$ pip install pipreqs
+Collecting pipreqs
+  Downloading pipreqs-0.4.11-py2.py3-none-any.whl (32 kB)
+Collecting docopt
+  Downloading docopt-0.6.2.tar.gz (25 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting yarg
+  Downloading yarg-0.1.9-py2.py3-none-any.whl (19 kB)
+Requirement already satisfied: requests in c:\▒▒▒▒▒ ▒▒▒▒▒\lib\site-packages (from yarg->pipreqs) (2.27.1)
+Requirement already satisfied: certifi>=2017.4.17 in c:\▒▒▒▒▒ ▒▒▒▒▒\lib\site-packages (from requests->yarg->pipreqs) (2021.10.8)
+Requirement already satisfied: idna<4,>=2.5 in c:\▒▒▒▒▒ ▒▒▒▒▒\lib\site-packages (from requests->yarg->pipreqs) (3.3)
+Requirement already satisfied: urllib3<1.27,>=1.21.1 in c:\▒▒▒▒▒ ▒▒▒▒▒\lib\site-packages (from requests->yarg->pipreqs) (1.26.8)
+Requirement already satisfied: charset-normalizer~=2.0.0 in c:\▒▒▒▒▒ ▒▒▒▒▒\lib\site-packages (from requests->yarg->pipreqs) (2.0.12)
+Using legacy 'setup.py install' for docopt, since package 'wheel' is not installed.
+Installing collected packages: docopt, yarg, pipreqs
+  Running setup.py install for docopt: started
+  Running setup.py install for docopt: finished with status 'done'
+Successfully installed docopt-0.6.2 pipreqs-0.4.11 yarg-0.1.9
+
+Ололя@DESKTOP-VHM375L MINGW64 ~/PycharmProjects/pythonProject/2075_Python/Les_4 (main)
+$ pip freeze
+certifi==2021.10.8
+charset-normalizer==2.0.12
+docopt==0.6.2
+idna==3.3
+Pillow==9.0.1
+pipreqs==0.4.11
+requests==2.27.1
+urllib3==1.26.8
+yarg==0.1.9
+
+Ололя@DESKTOP-VHM375L MINGW64 ~/PycharmProjects/pythonProject/2075_Python/Les_4 (main)
+$ pip install pip tools
+Requirement already satisfied: pip in c:\▒▒▒▒▒ ▒▒▒▒▒\lib\site-packages (22.0.3)
+Collecting tools
+  Downloading tools-0.1.9.tar.gz (34 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting pytils
+  Downloading pytils-0.3.tar.gz (89 kB)
+     -------------------------------------- 89.5/89.5 KB 267.9 kB/s eta 0:00:00
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting six
+  Downloading six-1.16.0-py2.py3-none-any.whl (11 kB)
+Collecting lxml
+  Downloading lxml-4.8.0-cp310-cp310-win_amd64.whl (3.6 MB)
+     ---------------------------------------- 3.6/3.6 MB 339.3 kB/s eta 0:00:00
+Using legacy 'setup.py install' for tools, since package 'wheel' is not installed.
+Using legacy 'setup.py install' for pytils, since package 'wheel' is not installed.
+Installing collected packages: pytils, six, lxml, tools
+  Running setup.py install for pytils: started
+  Running setup.py install for pytils: finished with status 'done'
+  Running setup.py install for tools: started
+  Running setup.py install for tools: finished with status 'done'
+Successfully installed lxml-4.8.0 pytils-0.3 six-1.16.0 tools-0.1.9
+
+Ололя@DESKTOP-VHM375L MINGW64 ~/PycharmProjects/pythonProject/2075_Python/Les_4 (main)
+$ pip freeze
+certifi==2021.10.8
+charset-normalizer==2.0.12
+docopt==0.6.2
+idna==3.3
+lxml==4.8.0
+Pillow==9.0.1
+pipreqs==0.4.11
+pytils==0.3
+requests==2.27.1
+six==1.16.0
+tools==0.1.9
+urllib3==1.26.8
+yarg==0.1.9
+
+Ололя@DESKTOP-VHM375L MINGW64 ~/PycharmProjects/pythonProject/2075_Python/Les_4 (main)
+$
+
+
